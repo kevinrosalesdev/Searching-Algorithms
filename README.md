@@ -19,7 +19,7 @@ Su implementación se basa en una mejora del Branch & Bound original, dado a que
 
 Los resultados se pueden ver en el fichero *run.py* (Comentados). 
 
-Como se puede observar, mientras que la búsqueda en anchura o búsqueda en profundidad no tienen por qué llevar a la solución más óptima (Aquel que tiene menos coste de trayecto), la búsqueda con Branch & Bound sí que asegura la optimalidad.
+Como se puede observar, mientras que la búsqueda en anchura o búsqueda en profundidad no tienen por qué llevar a la solución más óptima (Aquella que tiene menos coste de trayecto), la búsqueda con Branch & Bound sí que asegura la optimalidad.
 
 Además, Branch & Bound con subestimación visita menor cantidad de nodos como se puede visualizar por lo que no solo lleva a la solución más óptima, sino que lo hará con un coste computacional menor gracias a su heurística.
 
