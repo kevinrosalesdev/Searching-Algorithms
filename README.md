@@ -35,7 +35,7 @@ python3 ./run.py
 
 ## Output
 
-You are able to try some new Tests. Just modify the cities in *run.py* by changing parameters in *search.GPSProblem(city1, city2, search.romania)* method!
+You are able to try some new Tests. Just modify the cities in *run.py* by changing parameters in *search.GPSProblem(city1, city2, search.romania)*!
 
 Output should be something like this:
 
