@@ -40,15 +40,15 @@ You are able to try some new Tests. Just modify the cities in *run.py* changing 
 Output should be something like this:
 
 ```bash
-======================================[CASO_1] 			<= Example Number
-Nodos visitados:  16									<= Visited Nodes [BFS]
-En Anchura: [<Node B>, <Node F>, <Node S>, <Node A>]	<= Trace [BFS]
-Nodos visitados:  10									<= Visited Nodes [DFS]
-En Profundidad: [<Node B>, <Node P>, <Node C>, <Node D>, <Node M>, <Node L>, <Node T>, <Node A>]											   <= Trace [DFS]
-Nodos visitados:  24									<= Visited Nodes [B&B]
-Branch & Bound: [<Node B>, <Node P>, <Node R>, <Node S>, <Node A>]	<= Trace [B&B]
-Nodos visitados:  6										<= Visited Nodes [B&B w/ Heur.]
-Branch & Bound con Subestimaci▒n: [<Node B>, <Node P>, <Node R>, <Node S>, <Node A>] <= Trace [B&B w/ Heur.]
+======================================[CASO_1]  <= Example Number
+Nodos visitados:  16                            <= Visited Nodes [BFS]
+En Anchura: [<Node B>, <Node F>, <Node S>, <Node A>]  <= Trace [BFS]
+Nodos visitados:  10                            <= Visited Nodes [DFS]
+En Profundidad: [<Node B>, <Node P>, <Node C>, <Node D>, <Node M>, <Node L>, <Node T>, <Node A>]  <= Trace [DFS]
+Nodos visitados:  24                            <= Visited Nodes [B&B]
+Branch & Bound: [<Node B>, <Node P>, <Node R>, <Node S>, <Node A>]  <= Trace [B&B]
+Nodos visitados:  6                             <= Visited Nodes [B&B w/ Heur.]
+Branch & Bound con Subestimacion: [<Node B>, <Node P>, <Node R>, <Node S>, <Node A>]  <= Trace [B&B w/ Heur.]
 ====================================================================================
 ```
 
